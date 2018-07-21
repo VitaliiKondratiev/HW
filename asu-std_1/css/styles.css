@@ -1,0 +1,101 @@
+
+.container #data{
+  width: 200px;
+  text-align: center;
+  vertical-align: middle;
+  border:1px solid #e3e3e3;
+    margin-left: 15px;
+  /*  background-color: #FF0000;*/
+}
+.container .row{
+  margin-top: 20px;
+
+}
+#del_pr, #change_pr, #tableitoga_up{
+  display: none;
+
+}
+#noKurs {
+  cursor: pointer;
+
+}
+#sorted {
+  display:block;
+  position: fixed;
+
+}
+#sss{
+  position: relative;
+  height:14%;
+  z-index: 1;
+  background-color: white;
+}
+
+
+#hid {
+  visibility: hidden;
+
+}
+#hidenh {
+  display: none;
+
+}
+.hided {
+  display: none;
+
+}
+/* ::-webkit-scrollbar {
+    width: 10px;  remove scrollbar space
+    background: transparent;   optional: just make scrollbar invisible
+} */
+
+#rozklad td{
+    vertical-align: middle;
+}
+.mar_five .row:not(:first-child) {
+  margin-top: 8px;
+}
+
+#row_tbl table tr td, #row_tbl_wod table tr td{
+  padding-top: 1px;
+  padding-bottom : 1px;
+}
+#row_tbl table tr:nth-child(2n), #row_tbl_wod table tr:nth-child(2n){
+  background: #f0f0f0; /* Цвет фона */
+}
+
+.amount {
+	width:100px;
+}
+.amount span {
+	display:inline-block;
+	width:25px;
+	height:20px;
+	background:#20B2AA;
+	cursor:pointer;
+	text-align:center;
+}
+.amount span:hover {
+	background:#FF7F50;
+}
+.amount input {
+	width:30px;
+	text-align:center;
+}
+.part_table  {
+  padding: 0px;
+}
+.part_table tr:first td{
+  background:#20B2AA;
+
+}
+ #attend_data{
+   overflow-x: auto;
+}
+
+
+
+/* optional: show position indicator in red */
+/*::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
